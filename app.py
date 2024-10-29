@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 import os
 from groq import Groq
+from socket_instance import socketio
 app = Flask(__name__)
 
 client = Groq(
