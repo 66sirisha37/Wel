@@ -204,9 +204,6 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #000000;
-}
 
 .dark-mode button {
     background-color: #ffffff;
