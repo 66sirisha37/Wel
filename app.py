@@ -43,4 +43,4 @@ def get_response():
 
 if __name__ == '__main__':
     # Run the application with SocketIO
-    socketio.run(app, host='0.0.0.0'allow_unsafe_werkzeug=True)
+    socketio.run(app, host='0.0.0.0',allow_unsafe_werkzeug=True)
